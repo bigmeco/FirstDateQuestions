@@ -12,11 +12,12 @@
         android:src="@drawable/rectangle"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="..........."
-        android:textColor="@color/colorAccent"
-        style="@style/Base.TextAppearance.AppCompat.Display1"
-        android:gravity="center"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Вы готовы? Тогда поехали!"
+            android:textColor="@color/colorAccent"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:gravity="center" android:id="@+id/textQuestions" android:layout_margin="24dp"
+            android:textSize="24sp"/>
 
 </FrameLayout>
